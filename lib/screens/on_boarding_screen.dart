@@ -1,3 +1,4 @@
+
 //import from flutter
 import 'package:coins_trap/screens/home_screen.dart';
 import 'package:flutter/material.dart';
@@ -57,7 +58,6 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final deviceSize = MediaQuery.of(context).size;
     var pageDecoration = const PageDecoration(
       titleTextStyle: TextStyle(
           fontSize: 28.0, fontWeight: FontWeight.w700, color: Colors.white),
